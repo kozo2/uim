@@ -7,5 +7,6 @@ addons:
       - make
       - gettext
       - intltool
+      - autoconf
 install:
-  - ./configure && make && make install
+  - ./autogen.sh && ./configure && make && sudo make install
