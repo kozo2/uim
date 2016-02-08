@@ -8,4 +8,4 @@ addons:
       - gettext
       - intltool
 install:
-  - ./configure && make
+  - ./configure && make && make install
